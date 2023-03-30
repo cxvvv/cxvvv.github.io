@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Sec's Bio">
+      <meta property="og:title" content="Sec">
+      <meta property="og:description" content="Sec's Bio">
+      <meta property="og:image" content="https://cdn.discordapp.com/avatars/1009483828001263697/1112be87606a860c211e405ec7c07504.webp?size=4096">
+      <meta property="og:image:width" content="300">
+      <meta property="og:image:height" content="300">
+      <title>Sec | ST-Bio</title>
+      <link rel="icon" href="" type="image/png">
+      <style>
+         body {
+         background-image: url("https://cdn.discordapp.com/attachments/1038138619296219136/1091071534157807766/4K_Sky_Full_Of_Stars.png");
+         color: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         }
+         .container {
+         background-color: transparent;
+         border-radius: 20px;
+         margin: 20px;
+         padding: 30px;
+         width: 400px;
+         box-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 0px #ffffff;
+         }
+         .avatar {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         }
+         .avatar img {
+         border-radius: 50%;
+         height: 100px;
+         width: 100px;
+         }
+         .bio {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 25px;
+         font-weight: bold;
+         color: #ffffff;
+         text-align: center;
+         line-height: 1.5;
+         }
+         .link {
+         color: #ffffff;
+         text-decoration: none;
+         }
+         .link:hover {
+         text-decoration: underline;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="avatar">
+            <img src="https://cdn.discordapp.com/avatars/1009483828001263697/1112be87606a860c211e405ec7c07504.webp?size=4096" alt="Sec's Avatar">
+         </div>
+         <br>
+         <div class="bio">
+            Hey, I'm Sec <br><br><br>
+            I play Roblox, CSGO, GTAV and more <br><br><br>
+            Check out my discord https://discord.gg/7D4WnxXdZB
+         </div>
+      </div>
+      <script>
+         document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+         });
+         
+         document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'i') {
+               e.preventDefault();
+            }
+         });
+      </script>
+   </body>
+</html>
