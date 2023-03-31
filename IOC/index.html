@@ -137,5 +137,16 @@
         audio.play();
       });
     </script>
+     <script>
+         document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+         });
+         
+         document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'i') {
+               e.preventDefault();
+            }
+         });
+      </script>
   </body>
 </html>
