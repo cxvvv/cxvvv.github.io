@@ -131,5 +131,16 @@
         <a href="https://cxvvv.github.io/IOC/" target="_blank" class="button">IOC's Biography</a>
       </div>
     </div>
+     <script>
+         document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+         });
+         
+         document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'i') {
+               e.preventDefault();
+            }
+         });
+      </script>
   </body>
 </html>
